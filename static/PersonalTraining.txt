@@ -1,0 +1,42 @@
+Q. yes, please create a quote as well.
+Ans. create_quote
+Q2. please create quote
+Ans. create_quote
+Q3. please create a quote for an oppty
+Ans. create_quote
+Q.Can you create a opportunity on ABC school Account ?
+Ans. create_quote
+Q.Can you create an opportunity on ABC school Account ?
+Ans. create_quote
+Q.Hey , Can you create a opportunity on ABC school Account ?
+Ans. create_quote
+Q.Can you please create an opportunity for ABC school account .
+Ans. create_quote
+Q.Create opportunity  on ABC school Account
+Ans. create_quote
+Q.Create Opportunity for customer ABC school
+Ans. create_quote
+Q.Create opportunity for ABC school Account
+Ans. create_oppty
+Q.Create a opportunity on  Account with name ABC school.
+Ans. create_quote
+Q.Can you create a opportunity in ABC school Account.
+Ans. create_quote
+Q.Sign up for an opportunity on ABC school Account?
+Ans. create_oppty
+Q.Generate an opportunity on top of Account ABC
+Ans. create_oppty
+Q.Generate opportunity from ABC school account.
+Ans. create_oppty
+Q.Identify ABC school account and create opportunity for the same
+Ans. create_oppty
+Q.For ABC school Account create an Opportunity
+Ans. create_oppty
+Q.Create a new opportunity for ABC School Account
+Ans. create_oppty
+Q.The Account name is ABC School , Create opportunity on this .
+Ans. create_oppty
+Q.Generate a new opportunity for ABC school
+Ans. create_oppty
+Q.can you please create an quote for ABC School?
+Ans. create_quote

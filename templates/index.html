@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Embedding App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Azure Embedding App</a>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center mt-5">
+        <div style="width: 50%;">
+            <h5>Enter Your Query</h5>
+            <input type="text" class="form-control mt-2 w-100" id="query">
+            <button class="btn btn-primary mt-4" onclick="getLLMResponse()">Get Response</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col p-4" id="queryResponse"
+            style="font-family: 'Courier New', Courier, monospace; font-weight: 900;">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        async function getLLMResponse() {
+            const query = $("#query").val()
+            const data = {
+                "query": query
+            }
+            $("#queryResponse").append("<p>Generating your Result....</p>")
+            const response = await fetch(
+                '/getQueryResult',
+                {
+                    method: 'POST',
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                }
+            )
+
+            const r = await response.json()
+            $("#queryResponse").empty()
+            // $("#queryResponse").append(`
+            //     <div>${r.response}</div>
+            // `)
+            let i = 0;
+            const text = String(r.response)
+            function type() {
+                if (i < text.length) {
+                    $("#queryResponse").append(`<span>${text.charAt(i)}</span>`);
+                    i++;
+                    setTimeout(type, 20)
+                }
+            }
+            type()
+        }
+
+    </script>
+</body>
+
+</html>

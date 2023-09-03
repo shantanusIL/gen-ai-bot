@@ -1,0 +1,674 @@
+WEBVTT
+
+1
+00:00:02.260 --> 00:00:05.610
+Some, Souvik: Yeah, let me know if my screen is visible to you.
+
+2
+00:00:06.180 --> 00:00:07.300
+Tiwari, Shuchi: I can see you.
+
+3
+00:00:07.660 --> 00:00:09.120
+Some, Souvik: Okay, Thank you.
+
+4
+00:00:10.630 --> 00:00:15.770
+Some, Souvik: So i'll go over one of the you know, object use cases. So basically
+
+5
+00:00:16.129 --> 00:00:30.550
+Some, Souvik: best one and companyx is light opportunity, one. So on opportunity. We have. you know, so many different scenarios. Cool. Let me start with this one.
+
+6
+00:00:43.010 --> 00:00:44.160
+Some, Souvik: Okay, this is the one.
+
+7
+00:00:44.330 --> 00:00:59.400
+Some, Souvik: So the other a trigger. So generally we know there's best practices like to write only one trigger for one object. Right? So the reason is like, let's say salesforce, you know. Doesn't.
+
+8
+00:00:59.440 --> 00:01:05.300
+Some, Souvik: you know, Give any guarantee that let's after this one. This trigger will going to run.
+
+9
+00:01:05.870 --> 00:01:10.020
+Some, Souvik: Okay. It like depends on different environment and
+
+10
+00:01:20.580 --> 00:01:22.560
+Some, Souvik: condition. There.
+
+11
+00:01:22.640 --> 00:01:28.830
+Some, Souvik: now, what we want key from my other method. Also, i'm checking some other business scenario.
+
+12
+00:01:28.960 --> 00:01:33.860
+But I want key, you know, like the other class, should should like execute first.
+
+13
+00:01:34.150 --> 00:01:44.950
+Some, Souvik: So, in order to overcome such, you know, like issues, so we should be writing only one trigger. But here you will see multiple triggers. We have. The reason is like, so they do have multiple.
+
+14
+00:01:44.970 --> 00:01:47.470
+Some, Souvik: you know, manage package installed. Okay.
+
+15
+00:01:47.510 --> 00:01:48.590
+Some, Souvik: But that's why.
+
+16
+00:01:49.910 --> 00:01:50.920
+Some, Souvik: So?
+
+17
+00:01:51.500 --> 00:01:59.860
+Some, Souvik: So this is the basic, you know, definition of the like this like figure class. So what it's doing. It's like calling the handler
+
+18
+00:01:59.930 --> 00:02:04.740
+Some, Souvik: directly. Nothing else. You will see all the like figure context variable. Are there
+
+19
+00:02:05.330 --> 00:02:14.160
+Some, Souvik: right like before inside the after insert before update after update. It's like usual practice that we follow in case of other trigger as well.
+
+20
+00:02:14.700 --> 00:02:15.820
+Some, Souvik: Okay. So
+
+21
+00:02:15.940 --> 00:02:23.800
+Some, Souvik: so what will happen? So it will call this like figure Handler. I think it's already open. Okay.
+
+22
+00:02:24.000 --> 00:02:27.910
+Some, Souvik: so fast. Question may come up.
+
+23
+00:02:28.890 --> 00:02:29.650
+Some, Souvik: Okay.
+
+24
+00:02:29.770 --> 00:02:32.850
+Some, Souvik: So you don't see any method call run right.
+
+25
+00:02:34.520 --> 00:02:40.160
+Tiwari, Shuchi: Your screen is, I mean, can you just zoom a little bit. I'm not. It's not very clear to me.
+
+26
+00:02:40.200 --> 00:02:42.110
+Some, Souvik: Yeah, makes sense. Actually. So
+
+27
+00:02:42.660 --> 00:02:52.940
+Some, Souvik: as is okay, yeah, thank you so much for letting me know and let me know for this one as well, if you have any.
+
+28
+00:02:53.050 --> 00:02:55.290
+Some, Souvik: Okay. I'm: sorry
+
+29
+00:02:55.310 --> 00:02:58.400
+Some, Souvik: it's some zoom in as well. Okay. So
+
+30
+00:02:59.490 --> 00:03:06.680
+Some, Souvik: yeah. So here is my handler class to now on, you know, like question. Can I ask, Where is this method? Definition Run
+
+31
+00:03:06.970 --> 00:03:09.600
+Some, Souvik: right? We don't have it within this right?
+
+32
+00:03:09.960 --> 00:03:20.950
+Some, Souvik: So now this class is, like, you know, extending another class. So in this, like you know, like inheritance, like where we are generating another, you know, like best class.
+
+33
+00:03:21.170 --> 00:03:27.680
+Some, Souvik: So there is one of the groups that we can discuss if you notice, right. So here we have a third call run.
+
+34
+00:03:28.030 --> 00:03:42.860
+Some, Souvik: Okay, so the primary thing is like that. When we execute any trigger, or like any class, what these like, you know compiler will do. It will try to find for the trigger class from Trigger the first line will execute it will find for handler.
+
+35
+00:03:42.990 --> 00:03:47.280
+then handler we'll find for the run once what will going to happen. The first method.
+
+36
+00:03:47.430 --> 00:03:59.910
+Tiwari, Shuchi: so it will find like whether the trigger is disable or not. So there are certain logic written here. Let me go to that logic as well. So we have one, you know, like custom, metadata based on that. It decide key whether a trigger is visible or not.
+
+37
+00:03:59.910 --> 00:04:11.670
+Some, Souvik: So there are a certain business scenario. Let's say, I want to download some data. This is like appropriate example. I want to load some data. In that case, like I don't want my trigger
+
+38
+00:04:11.820 --> 00:04:12.740
+Some, Souvik: to fire
+
+39
+00:04:13.190 --> 00:04:32.680
+Some, Souvik: what will happen. So if you are doing a bulk, load or something, though it will take a lot of time right, because those business logic will execute. I don't want that, because when when I load my data I want to make sure my my data is already well validated by myself. So before I load that data, I don't want to, you know, like this trigger to fire again.
+
+40
+00:04:33.050 --> 00:04:34.340
+Tiwari, Shuchi: I think so.
+
+41
+00:04:34.410 --> 00:04:46.170
+Tiwari, Shuchi: So like we have option directly in the setup, also to the same on people. So why don't we have separate of like we? Why we have designed this. So let's say you are good questions. So let's say
+
+42
+00:04:46.180 --> 00:04:55.900
+Some, Souvik: from Trigger. Actually, we can disable. Okay, I mean glass level. You will not see any checkbox called is available, right. But in Trigger we have that.
+
+43
+00:04:55.910 --> 00:05:06.520
+Some, Souvik: But just think about one scenario in case of fraud. You will not have this ied button available, right? It means that it button available. So you need to do a like deployment to
+
+44
+00:05:06.670 --> 00:05:09.390
+Some, Souvik: oh, disable that the trigger
+
+45
+00:05:10.040 --> 00:05:13.840
+Some, Souvik: right again. You need to do another deployment to enable that figure.
+
+46
+00:05:14.580 --> 00:05:25.340
+Tiwari, Shuchi: I mean, like it cannot be done as a so it is not possible in fraud in broad. We can't edit, You know, our trigger, our epics classes.
+
+47
+00:05:25.670 --> 00:05:37.730
+Tiwari, Shuchi: Okay, so like, suppose. And so whenever we want to disabling it, either we have to make an entry on that custom correct, correct. So there is some check box based on that we can.
+
+48
+00:05:37.960 --> 00:05:48.770
+Some, Souvik: but the reason is like we can edit. I know our our component, our visual force pages, but in broad, we don't get a chance to edit our it picks us and a text trigger.
+
+49
+00:05:48.860 --> 00:06:08.310
+Some, Souvik: So then, like recursion blocks. So so this what this block will do so it will take. Let's say, fast time. All the you know contexts were like executed. Okay, so that means they have on one count. I'll show you where, like this discount is getting captured, and there is storing it.
+
+50
+00:06:08.310 --> 00:06:18.460
+Some, Souvik: I showed in the later point, but it will check whether this firing for the second time or not. Okay, if it's for second time, then yeah, so it will say this
+
+51
+00:06:18.480 --> 00:06:19.220
+Some, Souvik: 7.
+
+52
+00:06:19.650 --> 00:06:22.810
+Some, Souvik: Okay. So it will not execute the rest of the thing.
+
+53
+00:06:23.320 --> 00:06:35.270
+Tiwari, Shuchi: But oh, yeah, I, that many person is fine, but there may be a scenario. Where do we actually want? So they are. We have, so i'll show you that part as well like where we want to.
+
+54
+00:06:35.630 --> 00:06:51.820
+Some, Souvik: you know, like explicitly mentioned, the this part of trigger will execute at least twice. Yeah. So how this like is happening. So I have, you know, like change in the you know.
+
+55
+00:06:51.820 --> 00:07:11.150
+Some, Souvik: in the trigger code, so to support that. So here is a recursion block. If you see this, the definition of recursion. Okay. So here, what we do, we can see that. Yeah. So this is the individual way. So what I have done the fast. It was not there, right that whether we can.
+
+56
+00:07:11.180 --> 00:07:12.450
+Some, Souvik: you know, like
+
+57
+00:07:12.470 --> 00:07:19.380
+Some, Souvik: call one months previously like this multiple thing was not supportive. Okay, so
+
+58
+00:07:19.710 --> 00:07:29.190
+Some, Souvik: like what happened to as a part of one of the tickets I think we executed have, like we need to trigger one of the method for multiple times, but it was not supported.
+
+59
+00:07:29.200 --> 00:07:49.060
+Some, Souvik: So if you select this block of code like it was executing, it was checking just simply every time it will free. Let's say it's triggering opportunity to figure it will create one more entry. Operation means what is the event type? Then object? Name? If it's a before it inside. Then it's a before inside. You will see all the you know definitions of mentioned at the top.
+
+60
+00:07:49.110 --> 00:07:56.400
+Some, Souvik: So and like, if like. This unlike object is opportunity, then it will create a you know record within this list.
+
+61
+00:07:56.510 --> 00:08:06.650
+Some, Souvik: So within this collection. Okay. So it will check whether this is got executed previously or not. Then, based on this like, you know, this will like return the light.
+
+62
+00:08:06.740 --> 00:08:09.530
+whether it it's a recursion or decay or not.
+
+63
+00:08:09.640 --> 00:08:15.520
+Some, Souvik: So at that later, by what we have done, like, we have created a like in a block
+
+64
+00:08:15.700 --> 00:08:22.210
+Some, Souvik: that will say key. Yeah. So let's like, you know, check key, whether we have individual level of
+
+65
+00:08:22.470 --> 00:08:27.820
+Some, Souvik: you know, like men's recursion, correct, counter or not.
+
+66
+00:08:28.010 --> 00:08:38.030
+Some, Souvik: So based on this like, we are checking right. Now, if if we have this definition like Max Count. You see, we have this Max count
+
+67
+00:08:38.640 --> 00:08:44.500
+Some, Souvik: this definition. So what it will going to do so at the you know, like the
+
+68
+00:08:45.730 --> 00:08:58.150
+Some, Souvik: before inside level or before update level. We can mention how many time we want to trigger this? Okay, based on that, it will return that whether this is like, you know, this may block of code needs to execute again or not.
+
+69
+00:08:58.330 --> 00:09:08.480
+Tiwari, Shuchi: Oh, and that's a because you do not run for the for for which we have correct, so it will not.
+
+70
+00:09:08.700 --> 00:09:27.460
+Some, Souvik: So what trigger framework will do. Like the way we land key from run it will check, for whether it disable or not. If it's not disabled, then it will check for. But there is any recursion is happening or not. Right? Then we have all the like event types. Okay, so based on event type, it will call their individual methods.
+
+71
+00:09:27.800 --> 00:09:38.070
+Some, Souvik: Okay. And if you remember that I told you that whether this is like after or not, Whether how will I execute today? There is one variable that will tell
+
+72
+00:09:38.180 --> 00:09:44.370
+Some, Souvik: so. And if I go to this like before insert, you will notice we are before updates. So let me go to first
+
+73
+00:09:44.570 --> 00:09:45.890
+Some, Souvik: before insert.
+
+74
+00:09:48.690 --> 00:09:59.590
+Some, Souvik: Okay, so you are. You will notice we are passing only one least variable. The reason is, lag on before inside. I believe you are aware of that. We can. We have only Trigger dot new.
+
+75
+00:09:59.600 --> 00:10:01.650
+Tiwari, Shuchi: She got that old map is not available
+
+76
+00:10:02.660 --> 00:10:08.220
+Some, Souvik: right? So the same reason the for before sorry after inside as well, you will see only one
+
+77
+00:10:08.620 --> 00:10:13.100
+Some, Souvik: like. For rest of the context. You will notice. We have multiple variables
+
+78
+00:10:13.280 --> 00:10:19.000
+Some, Souvik: like for update before update or after update as well. You will notice the same.
+
+79
+00:10:19.550 --> 00:10:34.560
+Some, Souvik: But for a delete and on delete, if you notice, right? So we have only again single variable. So on delete after delete we get only one that is like that. We are deleting because we are deleting the record, right? We don't have a new context here.
+
+80
+00:10:34.700 --> 00:10:37.400
+Some, Souvik: So the same reason we'll get a single variable
+
+81
+00:10:37.530 --> 00:10:41.200
+Some, Souvik: With that we can understand, you know, like which trigger we are in currently
+
+82
+00:10:41.620 --> 00:10:58.180
+Some, Souvik: so based on that. Let's say, if we are triggering before inside what it will do, it will go and check again, whether there is, like, you know, before, insert, like previously executed or not, or like we have any before in in that context, you know, assigned here or not. So how to we going to check?
+
+83
+00:10:58.290 --> 00:10:59.320
+Some, Souvik: If you
+
+84
+00:10:59.640 --> 00:11:04.240
+Some, Souvik: say there is a global variable, the least type of before insert trigger.
+
+85
+00:11:04.660 --> 00:11:23.640
+Some, Souvik: Okay, so let's say whatever before inside we will going to add right. So it's a like this list is a collection of trigger, dot handler, bravest trigger, handlered dot best regions to whatever method we' going to add, it will going to add, as in like one of the collection item.
+
+86
+00:11:23.760 --> 00:11:27.460
+Some, Souvik: Okay, so it will hold that value.
+
+87
+00:11:27.470 --> 00:11:29.720
+Some, Souvik: Same applies for before update as well.
+
+88
+00:11:30.180 --> 00:11:33.260
+Tiwari, Shuchi: Right? So what it will do
+
+89
+00:11:34.050 --> 00:11:51.980
+Some, Souvik: on that loop you will see there is one method called execute, so each item it will read, and it will execute right if you recall what is this Execute Execute is nothing but the method that I told last day that there is one unimplemented method. So sorry. Abstract method here.
+
+90
+00:11:52.020 --> 00:11:53.810
+Tiwari, Shuchi: right call execute.
+
+91
+00:11:53.920 --> 00:11:58.450
+Tiwari, Shuchi: So it is defined where it is defined on this base class.
+
+92
+00:11:58.540 --> 00:11:59.350
+Some, Souvik: Right?
+
+93
+00:12:00.820 --> 00:12:10.840
+Some, Souvik: Yeah. So you will notice there is an abstract, so we have the like definition available here. Sorry structure, you know, like name structure available here. But the definition is not there.
+
+94
+00:12:10.920 --> 00:12:16.520
+Tiwari, Shuchi: so definition will be like, you know, the cloud class. We want to extend this like, you know, class.
+
+95
+00:12:16.600 --> 00:12:27.830
+Some, Souvik: so they have to like, you know, have a definition of this execute. So the same thing, the same method will gonna execute it from
+
+96
+00:12:28.540 --> 00:12:38.590
+Some, Souvik: this like if I go to this one. Yeah, from this like this method. So here is the triggering point to fire one individual methods.
+
+97
+00:12:39.980 --> 00:12:41.180
+Tiwari, Shuchi: Okay.
+
+98
+00:12:41.540 --> 00:12:42.260
+Some, Souvik: Okay.
+
+99
+00:12:44.010 --> 00:12:46.990
+Some, Souvik: So and also here we execute, you know, like.
+
+100
+00:12:47.010 --> 00:12:49.130
+Some, Souvik: Yeah, add one count.
+
+101
+00:12:49.290 --> 00:12:53.660
+Some, Souvik: Okay, this time, this before insight got triggered. this is one.
+
+102
+00:12:53.930 --> 00:12:56.330
+Some, Souvik: Next time would be to like that way.
+
+103
+00:12:57.000 --> 00:12:57.700
+Tiwari, Shuchi: Hmm.
+
+104
+00:12:57.750 --> 00:12:58.420
+Some, Souvik: Right?
+
+105
+00:12:58.750 --> 00:13:03.190
+Tiwari, Shuchi: So like how many methods that we can do that, we will.
+
+106
+00:13:03.330 --> 00:13:09.680
+Some, Souvik: I don't know how many time like, let's say, before inside is like for opportunity executing months.
+
+107
+00:13:09.910 --> 00:13:20.400
+Tiwari, Shuchi: Then it will have one. It's not that key. How many methods are executing
+
+108
+00:13:20.460 --> 00:13:21.110
+Some, Souvik: correct?
+
+109
+00:13:21.660 --> 00:13:25.230
+Some, Souvik: So, Karan Nash, those, if you have also any, goes to and let me know.
+
+110
+00:13:32.060 --> 00:13:43.060
+Some, Souvik: Okay. So oh, it's like, Stop me, if, like some point, you feel like you need to know some other. But as well like, I'm going too fast or something.
+
+111
+00:13:46.060 --> 00:13:46.780
+Narendra Prajapati, Karan: Yeah.
+
+112
+00:13:48.430 --> 00:13:54.410
+Some, Souvik: Okay. So this is the way that how we figure individual methods
+
+113
+00:13:54.710 --> 00:13:56.490
+to. Now, what happened like
+
+114
+00:13:57.100 --> 00:14:05.380
+Some, Souvik: one of the key thing is like, let's say, if I go to my, you know, one of the feature method. Yeah, we will see. We have
+
+115
+00:14:05.530 --> 00:14:07.720
+Some, Souvik: different logics, and based on that.
+
+116
+00:14:08.150 --> 00:14:17.340
+Some, Souvik: we assign some opportunity name, as we are assigning the value to the same current trigger context. We don't need to perform any explicit update.
+
+117
+00:14:17.780 --> 00:14:21.110
+Some, Souvik: So there is like no use of this change object. Dot tracker.
+
+118
+00:14:21.170 --> 00:14:38.180
+Some, Souvik: Yeah, we hold all the like Dml operations, let's say, from opportunity. And after trigger you will notice we are creating teams on all like, okay, like all the actions which are need to be found after performing, we are emptying it.
+
+119
+00:14:38.220 --> 00:14:43.660
+Some, Souvik: Yeah. So what we are doing here so all the like Dms: let's say I need to create
+
+120
+00:14:43.680 --> 00:14:45.940
+opportunity. It teams
+
+121
+00:14:46.080 --> 00:14:47.840
+Some, Souvik: Okay, based on account teams.
+
+122
+00:14:47.860 --> 00:14:49.100
+Tiwari, Shuchi: right?
+
+123
+00:14:49.160 --> 00:14:57.400
+Some, Souvik: So in order to oh, like either, usually what we do in case of other frameworks can be directly perform our inside operation here.
+
+124
+00:14:57.480 --> 00:14:58.580
+Some, Souvik: But here
+
+125
+00:14:59.840 --> 00:15:03.120
+Some, Souvik: we don't perform inside operation directly here what we do
+
+126
+00:15:03.390 --> 00:15:11.130
+Some, Souvik: on a change object, you know, like we create an instance of it, and we add all the like, you know, dma like, let's say, in case of
+
+127
+00:15:11.170 --> 00:15:20.940
+Some, Souvik: opportunity team. I want to create this, you know, like 3 or 4 4 records, so i'll add that to a list and then add it to the change. Object, Tracker
+
+128
+00:15:21.130 --> 00:15:23.590
+Some, Souvik: and I will mention as an operation as an added
+
+129
+00:15:23.830 --> 00:15:37.380
+Some, Souvik: so Dml. Will not happen immediately. It will store the value in this like collection, only I will show when the Dml actual going to happen. Let's say, here we created 3 opportunity teams. Okay.
+
+130
+00:15:37.700 --> 00:15:40.110
+Some, Souvik: like, let's, you know, like pause there.
+
+131
+00:15:41.500 --> 00:15:44.030
+Some, Souvik: Then. from this method.
+
+132
+00:15:44.840 --> 00:15:54.860
+Some, Souvik: So what we are doing after performing some, you know, like different operations. So we are also like creating the owner.
+
+133
+00:15:55.110 --> 00:15:58.100
+Some, Souvik: or, like you know, assigning the email address to the contact
+
+134
+00:15:58.120 --> 00:16:00.900
+Some, Souvik: as a way to contact these all values right
+
+135
+00:16:00.980 --> 00:16:04.930
+to what we are doing at the end. Again, we are adding to that tracker object
+
+136
+00:16:06.170 --> 00:16:10.640
+Tiwari, Shuchi: that this is the contact. So this, like
+
+137
+00:16:10.900 --> 00:16:23.760
+Some, Souvik: the content where I have added with the email address, you know, on our mail, then sales, email address, and all. though this is also one of the class written by me. So per like owner id, and all those i'm adding, and
+
+138
+00:16:23.920 --> 00:16:36.510
+Some, Souvik: on top of that i'm. Adding key. What is the operation? It is this is an it is not an add operation right on existing contact only we are adding, you know, a few values or leg over writing few values. Right? So this is an update operation
+
+139
+00:16:36.850 --> 00:16:40.190
+Some, Souvik: to like that way. It will trigger all the methods.
+
+140
+00:16:40.200 --> 00:16:48.270
+Some, Souvik: Okay, like all the trigger context method. After that, at the end it will call one method called build right?
+
+141
+00:16:48.350 --> 00:16:56.080
+Some, Souvik: So what it sorry not be, L. Actually so Build is like when the all the trigger execute Trigon methods will going to execute. That's the greed
+
+142
+00:16:56.460 --> 00:17:05.099
+Some, Souvik: so we have here. If I go to this change object Tracker. So what you will notice
+
+143
+00:17:05.609 --> 00:17:11.790
+Some, Souvik: on change. Object, tracker, what we do we do call add all or add right. So here is a method
+
+144
+00:17:11.900 --> 00:17:25.300
+Some, Souvik: on the change object what it will do. It will, you know, like, create or add the you know each wrapar type like the I mentioned key we are doing add operation. We are doing, you know, update operation all the like operations here.
+
+145
+00:17:25.819 --> 00:17:41.940
+Some, Souvik: Right also, it will mention about if I let's say, is added a single object. Right? Let's say I showed you the contact, I'm. Adding it. It will also add it to the existing. You know these dot like that way. It will add it to their existing. You know, like collection
+
+146
+00:17:42.150 --> 00:17:59.900
+Some, Souvik: in the previous first class, we are not directly using the list to admit that we are calling this class not the least methods. If you see we are creating a object of this like change of and we are calling these all methods
+
+147
+00:18:00.090 --> 00:18:13.840
+Tiwari, Shuchi: to like. I'm just thinking that we can directly. I think they're like for having a not least. But i'm there for some reason it will not then. So let's say in the next time, when these, like another method will execute it will not find the difference of it.
+
+148
+00:18:13.980 --> 00:18:23.890
+Tiwari, Shuchi: Okay, it'll be on it's just to keep that. So it's going to be there.
+
+149
+00:18:23.910 --> 00:18:32.040
+Tiwari, Shuchi: So at the end what happened? Let's say all the triggers are getting executed. Right? You you'll notice key. We have this saved methods.
+
+150
+00:18:32.310 --> 00:18:33.300
+Tiwari, Shuchi: Okay.
+
+151
+00:18:34.220 --> 00:18:37.260
+Some, Souvik: I was just saying it.
+
+152
+00:18:37.330 --> 00:18:53.280
+Tiwari, Shuchi: We can. We can. We can keep the very, very for the transaction, right? But i'm just not able to recall. But the static, the way data structure is written which you can like.
+
+153
+00:18:53.390 --> 00:19:07.690
+Tiwari, Shuchi: Yeah. So like, then it will like to have some issue also with that. So what happened. Basically so based on each operation. So you'll notice there is a for loop, right?
+
+154
+00:19:07.780 --> 00:19:17.900
+Tiwari, Shuchi: Why, there is a for loop based on each operation. It can be a like, you know, like add operation. It can be a delete operation can be an update operation based on that. It will figure this, save all method.
+
+155
+00:19:18.220 --> 00:19:22.570
+Some, Souvik: Okay. So if I go to this table structure, you will notice
+
+156
+00:19:22.750 --> 00:19:35.240
+Some, Souvik: we have the different context, like the way I told you, this is an upset. And this, and delay this, and you know, like based on that, it will fire right. And then what it will do the whole. You know a subject list we have right
+
+157
+00:19:35.380 --> 00:19:38.570
+Tiwari, Shuchi: now it will convert it to different objects.
+
+158
+00:19:39.810 --> 00:19:45.370
+Some, Souvik: This one, if I go to the like a subject list so based on the you know operations.
+
+159
+00:19:45.600 --> 00:19:48.030
+Some, Souvik: it will create a different set of objects.
+
+160
+00:19:48.320 --> 00:20:05.460
+Tiwari, Shuchi: The reason is like we are adding contact also to the same list. We are adding opportunity team also to the same list in. When we'll perform the Dml. Our operations would be separated right, we.
+
+161
+00:20:05.460 --> 00:20:22.390
+Tiwari, Shuchi: and then at the end it should be like, you know the the dma should occur, the damage would happen like that. Yeah, like that, where it's like, you know, capturing all the like, performing all the
+
+162
+00:20:22.720 --> 00:20:26.550
+Some, Souvik: update in certain these all operations.
+
+163
+00:20:26.690 --> 00:20:39.420
+Tiwari, Shuchi: It's completely complicated. I mean a bit complicated. Maybe you know, when you will put your hands here, then like
+
+164
+00:20:39.710 --> 00:20:41.010
+Tiwari, Shuchi: on this time.
+
+165
+00:20:41.630 --> 00:20:45.110
+Some, Souvik: But let me know if you have any question now anything that
+
+166
+00:20:47.100 --> 00:20:57.050
+Tiwari, Shuchi: for me like I understood the overall answer. But, like you need to get into what do you think that would happen like for my like for? My.
+
+167
+00:20:57.170 --> 00:21:07.720
+Tiwari, Shuchi: But what? What is our next step on that? I use? The yeah. Let me stop this recording.
+
+168
+00:21:08.390 --> 00:21:10.840
+Tiwari, Shuchi: I mean. First, we can take the question. Then you can.
+
