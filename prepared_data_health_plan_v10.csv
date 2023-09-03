@@ -1,0 +1,526 @@
+prompt,completion
+"Age:29
+Health Status:1
+Charges:4449.462
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:34
+Health Status:1
+Charges:5989.52365
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:35
+Health Status:1
+Charges:6402.29135
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:35
+Health Status:0
+Charges:5989.52365
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:37
+Health Status:1
+Charges:7281.5056
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:38
+Health Status:1
+Charges:7789.6715
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:38
+Health Status:0
+Charges:6123.87
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:39
+Health Status:1
+Charges:7567.5056
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:39
+Health Status:0
+Charges:6402.29135
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:40
+Health Status:1
+Charges:8059.6791
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:40
+Health Status:0
+Charges:5989.52365
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:41
+Health Status:1
+Charges:129876.4
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:41
+Health Status:0
+Charges:12000.0
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:42
+Health Status:1
+Charges:13200.0
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:42
+Health Status:0
+Charges:13009.847
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:43
+Health Status:1
+Charges:13673.77
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:43
+Health Status:0
+Charges:13008.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:44
+Health Status:1
+Charges:15908.674
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:44
+Health Status:0
+Charges:15009.0
+
+###
+
+", RecommendedPlan:XYZ Basic Plan End
+"Age:45
+Health Status:1
+Charges:20987.44
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:45
+Health Status:0
+Charges:20000.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:46
+Health Status:1
+Charges:21093.76
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:46
+Health Status:0
+Charges:20977.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:47
+Health Status:1
+Charges:22087.585
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:47
+Health Status:0
+Charges:21654.33
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:48
+Health Status:1
+Charges:22855.66
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:48
+Health Status:0
+Charges:22598.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:49
+Health Status:1
+Charges:24875.8739
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:49
+Health Status:0
+Charges:24067.474
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:50
+Health Status:1
+Charges:25000.84
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:50
+Health Status:0
+Charges:24987.76
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:51
+Health Status:1
+Charges:27638.33
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:51
+Health Status:0
+Charges:26536.47
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:52
+Health Status:1
+Charges:28000.347
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:52
+Health Status:0
+Charges:27537.22
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:53
+Health Status:1
+Charges:29600.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:53
+Health Status:0
+Charges:288736.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:54
+Health Status:1
+Charges:30000.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:54
+Health Status:0
+Charges:29637.0
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:55
+Health Status:1
+Charges:38976.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:55
+Health Status:0
+Charges:30654.33
+
+###
+
+", RecommendedPlan:XYZ Heart Health Plan End
+"Age:56
+Health Status:1
+Charges:31897.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:56
+Health Status:0
+Charges:310987.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:57
+Health Status:1
+Charges:32728.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:57
+Health Status:0
+Charges:32097.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:58
+Health Status:1
+Charges:33982.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:58
+Health Status:0
+Charges:33097.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:59
+Health Status:1
+Charges:34672.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:59
+Health Status:0
+Charges:33982.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:60
+Health Status:1
+Charges:35728.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:60
+Health Status:0
+Charges:34627.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:61
+Health Status:1
+Charges:36728.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:61
+Health Status:0
+Charges:36028.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:62
+Health Status:1
+Charges:37987.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:62
+Health Status:0
+Charges:37564.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:63
+Health Status:1
+Charges:38726.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:63
+Health Status:0
+Charges:37987.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:64
+Health Status:1
+Charges:39627.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:64
+Health Status:0
+Charges:38252.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:65
+Health Status:1
+Charges:40837.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:65
+Health Status:0
+Charges:39783.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:66
+Health Status:1
+Charges:42829.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:66
+Health Status:0
+Charges:41093.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:67
+Health Status:1
+Charges:43722.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:67
+Health Status:0
+Charges:42728.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:68
+Health Status:1
+Charges:44722.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:68
+Health Status:0
+Charges:43272.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:69
+Health Status:1
+Charges:45721.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:69
+Health Status:0
+Charges:44091.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:70
+Health Status:1
+Charges:51029.7
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:70
+Health Status:0
+Charges:50927.344
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:71
+Health Status:1
+Charges:51938.44
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:74
+Health Status:1
+Charges:51046.0
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:76
+Health Status:1
+Charges:52738.44
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End
+"Age:77
+Health Status:0
+Charges:51987.66
+
+###
+
+", RecommendedPlan:XYZ Full Health Plan End

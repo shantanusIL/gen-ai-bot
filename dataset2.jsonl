@@ -1,0 +1,51 @@
+{"prompt":"Can you create a opportunity on ABC school Account ? \n\n###\n\n","completion":"create_oppty \n\n###\n\n"}
+{"prompt":"Can you create an opportunity on ABC school Account ? \n\n###\n\n","completion":"create_oppty \n\n###\n\n"}
+{"prompt":"Hey , Can you create a opportunity on ABC school Account ? \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Can you please create an opportunity for ABC school account . \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create opportunity  on ABC school Account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create Opportunity for customer ABC school \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create opportunity for ABC school Account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create a opportunity on  Account with name ABC school. \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Can you create a opportunity in ABC school Account. \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Sign up for an opportunity on ABC school Account? \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Generate an opportunity on top of Account ABC \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Generate opportunity from ABC school account. \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Identify ABC school account and create opportunity for the same \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"For ABC school Account create an Opportunity \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create a new opportunity for ABC School Account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"The Account name is ABC School , Create opportunity on this . \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Generate a new opportunity for ABC school \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Can you create a new opportunity followed by quote as well for ABC School account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"On Account ABC School , create a new opportunity. \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Find the Customer ABC School and create the Quote  \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Create new opportunity and new quote for ABC School account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"please create an opportunity on ABC school \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"New Opportunity should be created for ABC school account \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Generate a new opportunity for Customer ABC \n\n###\n\n","completion":"create_oppty\n\n###\n\n"}
+{"prompt":"Yes \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Can you also create Quote along with opportunity  \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes please create \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes , Please create both quote and opportunity \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Create the quote \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Create both quote and opportunity \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes , proceed with quote creation too \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes , please go ahead with the creation of Quote \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes create \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Create Quote too , Yes \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Create opportunity and quote \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Create quote \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yea \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes , Generate both quote and opportunity \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"ok, create both \n\n###\n\n","completion":"create_oppty_quote\n\n###\n\n"}
+{"prompt":"No , Please create only opportunity \n\n###\n\n","completion":"stop\n\n###\n\n"}
+{"prompt":"No \n\n###\n\n","completion":"stop\n\n###\n\n"}
+{"prompt":"Please create only opportunity. \n\n###\n\n","completion":"stop\n\n###\n\n"}
+{"prompt":"That`s nice , please create both opportunity and quote \n\n###\n\n","completion":"create_oppty_quote\n\n###\n\n"}
+{"prompt":"No , I don`t need Quote now \n\n###\n\n","completion":"stop\n\n###\n\n"}
+{"prompt":"Yes , Thanks Please create Quote. \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"No , I need only opportunity for now. \n\n###\n\n","completion":"stop\n\n###\n\n"}
+{"prompt":"ok , Create Opportunity and followed by Quote creation \n\n###\n\n","completion":"create_oppty_quote\n\n###\n\n"}
+{"prompt":"ok , Can you create both at a time . \n\n###\n\n","completion":"create_oppty_quote\n\n###\n\n"}
+{"prompt":"Yes, make a quote too, please. \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"Yes , I would like to create quote as well \n\n###\n\n","completion":"create_quote\n\n###\n\n"}
+{"prompt":"No , I would like to have only opportunity . \n\n###\n\n","completion":"stop\n\n###\n\n"}

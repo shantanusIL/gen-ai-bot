@@ -1,0 +1,15 @@
+{"prompt":"Age:34\nHealth Status:1\nCharges:5989.52365\n\n###\n\n","completion":" Basic Plan End"}
+{"prompt":"Age:35\nHealth Status:1\nCharges:6402.29135\n\n###\n\n","completion":" Basic Plan End"}
+{"prompt":"Age:42\nHealth Status:0\nCharges:13009.847\n\n###\n\n","completion":" Basic Plan End"}
+{"prompt":"Age:45\nHealth Status:0\nCharges:20000.0\n\n###\n\n","completion":" Heart Health Plan End"}
+{"prompt":"Age:46\nHealth Status:1\nCharges:21093.76\n\n###\n\n","completion":" Heart Health Plan End"}
+{"prompt":"Age:47\nHealth Status:1\nCharges:22087.585\n\n###\n\n","completion":" Heart Health Plan End"}
+{"prompt":"Age:50\nHealth Status:1\nCharges:25000.84\n\n###\n\n","completion":" Heart Health Plan End"}
+{"prompt":"Age:54\nHealth Status:1\nCharges:30000.0\n\n###\n\n","completion":" Heart Health Plan End"}
+{"prompt":"Age:61\nHealth Status:1\nCharges:36728.0\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:61\nHealth Status:0\nCharges:36028.0\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:65\nHealth Status:1\nCharges:40837.0\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:65\nHealth Status:0\nCharges:39783.0\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:68\nHealth Status:1\nCharges:44722.0\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:70\nHealth Status:0\nCharges:50927.344\n\n###\n\n","completion":" Full Health Plan End"}
+{"prompt":"Age:71\nHealth Status:1\nCharges:51938.44\n\n###\n\n","completion":" Full Health Plan End"}
